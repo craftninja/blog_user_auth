@@ -1,0 +1,7 @@
+<h1>Welcome to the lending library
+  <% if @user %>
+    <%= @user.email %></h1>
+  <% else %>
+    </h1>
+    <%= link_to 'Sign up', new_user_path %>
+  <% end %>
