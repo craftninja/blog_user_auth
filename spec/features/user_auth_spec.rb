@@ -47,7 +47,6 @@ feature 'Homepage' do
   end
 
   scenario 'User cannot login if their email address does not exist' do
-    pending
     email_address = 'branwyn@example.com'
     password = '123456'
     visit '/'
@@ -59,7 +58,6 @@ feature 'Homepage' do
   end
 
   scenario 'User cannot sign in with an invalid email and/or password' do
-    pending
     email_address = 'branwyn@example.com'
     password = '123456'
     visit '/'
